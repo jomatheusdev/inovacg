@@ -4,7 +4,7 @@ import Event from '../../images/first-content/event.png';
 import Idea from '../../images/first-content/idea.png';
 import Result from '../../images/first-content/result.png';
 import Conversation from '../../images/first-content/conversation.png';
-
+import banner from '../../images/banner.png';
 
 const FirstContent = () => {
     return (
@@ -38,6 +38,11 @@ const FirstContent = () => {
             <div className='Carousel'>
                 
             </div>
+            <div className='banner'>
+                <img src={banner} alt="" />
+            </div>
+            <h2> Somos o E.InovCG</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius corporis doloremque asperiores iure quidem accusamus quisquam id! Pariatur, quaerat? Quasi nemo pariatur quibusdam, porro voluptatibus aspernatur nesciunt harum eos corporis?</p>
         </div>
     );
 };
