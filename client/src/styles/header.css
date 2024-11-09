@@ -1,0 +1,21 @@
+.header {
+    width: 100%;
+}
+
+.nav ul {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    white-space: nowrap;
+    background-color: orange;
+    contain: content;
+    padding: 1em 2em;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+}

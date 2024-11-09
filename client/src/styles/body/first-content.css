@@ -1,0 +1,17 @@
+.info--img ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+    margin: 4em;
+}
+.info--img p{
+    font-size: .5em;
+    color: white;
+    margin: 1em 2.2em;
+}
+
+.carousel {
+    margin: 2em;
+    
+}

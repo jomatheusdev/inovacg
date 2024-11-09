@@ -1,0 +1,27 @@
+.first-content {
+    padding: 1em 14vw;
+    width: 100%;
+    background-color: green;
+}
+
+.second-content {
+    width: 100%;
+    padding: 1em 14vw;
+    background-color: yellow;
+}
+
+.third-content {
+
+    width: 100%;    background-color: blue;
+    padding: 1em 14vw;
+}
+
+.fourth-content {
+    background-color: red;
+    padding: 1em 14vw;
+}
+
+.fifth-content {
+    background-color: purple;
+    padding: 1em 14vw;
+}
