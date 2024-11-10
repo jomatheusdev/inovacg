@@ -8,7 +8,7 @@ import FourthContent from './content/fourth-content';
 
 const Body = () => {
     return (
-        <section>
+        <section className='body--content'>
           <FirstContent />
           <SecondContent />
           <ThirdContent />

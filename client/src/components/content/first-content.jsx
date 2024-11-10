@@ -5,6 +5,7 @@ import Idea from '../../images/first-content/idea.png';
 import Result from '../../images/first-content/result.png';
 import Conversation from '../../images/first-content/conversation.png';
 import banner from '../../images/banner.png';
+import Card from '../../libs/cards';
 
 const FirstContent = () => {
     return (
@@ -36,13 +37,15 @@ const FirstContent = () => {
                 </p>
             </div>
             <div className='Carousel'>
-                
+                <Card />
             </div>
             <div className='banner'>
                 <img src={banner} alt="" />
             </div>
+            <div className='info--inova'>
             <h2> Somos o E.InovCG</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius corporis doloremque asperiores iure quidem accusamus quisquam id! Pariatur, quaerat? Quasi nemo pariatur quibusdam, porro voluptatibus aspernatur nesciunt harum eos corporis?</p>
+            </div>
         </div>
     );
 };

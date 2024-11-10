@@ -1,27 +1,32 @@
-.first-content {
-    padding: 1em 14vw;
+.first-content,
+.second-content,
+.third-content,
+.fourth-content,
+.fifth-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 100%;
-    background-color: green;
+}
+
+.first-content {
+    background-color: #71bf44;
+
 }
 
 .second-content {
-    width: 100%;
-    padding: 1em 14vw;
-    background-color: rgb(0, 255, 149);
+    background-color: #b8d989;
 }
 
 .third-content {
-
-    width: 100%;    background-color: rgb(255, 163, 58);
-    padding: 1em 14vw;
+    background-color: #f7931d;
 }
 
 .fourth-content {
-    background-color: rgb(218, 216, 216);
-    padding: 1em 14vw;
+    background-color: #f6f4f3;
 }
 
 .fifth-content {
-    background-color: purple;
-    padding: 1em 14vw;
+    background-color: #708a97;
 }

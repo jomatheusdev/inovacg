@@ -89,3 +89,18 @@ p {
     height: 130px;
 }
 
+.innerCircle ul{ 
+    position: relative;
+    bottom: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.innerCircle li {
+    padding: 2em;
+    background-color: #b8d989;
+    border: 15px solid #ffffff;
+    border-radius: 100%;
+}
