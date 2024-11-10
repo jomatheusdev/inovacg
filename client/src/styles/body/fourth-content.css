@@ -1,0 +1,25 @@
+.fourth-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.fourth-content h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.contato {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2rem;
+    gap: 10px;
+}
+
+.contato img {
+    width: 30px;
+}

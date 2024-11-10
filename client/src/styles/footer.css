@@ -1,0 +1,29 @@
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #6087ad;
+    border-top: 1px solid #e9ecef;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin: 0;
+    gap: 1rem;
+}
+
+img {
+    width: 70px;
+    height: 40px;
+    color: black;
+}
+
+
