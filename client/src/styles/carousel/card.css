@@ -5,8 +5,7 @@
     max-width: 800px;
     height: 300px;
     margin: 50px 0;
-    perspective: 1000px;
-    /* Essencial para o efeito 3D */
+    perspective: 1000px; /* Essencial para o efeito 3D */
   }
   
   .coverflow-wrapper {
@@ -33,6 +32,8 @@
     backface-visibility: hidden;
     transition: transform 0.5s ease, opacity 0.5s ease;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    opacity: 0; /* Por padrão, os slides ficam invisíveis */
+    z-index: 0; /* Slides fora de foco têm z-index menor */
   }
   
   /* Estilos para slides ativos e adjacentes */
@@ -54,6 +55,12 @@
     z-index: 1;
   }
   
+  /* Estilos para slides fora de foco */
+  .coverflow-slide.hidden {
+    display: none;
+    transition: display 0s 0.5s; /* Transição para ocultar o slide após animação */
+  }
+  
   /* Estilos dos botões de navegação */
   .nav-button {
     position: absolute;
@@ -66,16 +73,23 @@
     cursor: pointer;
     font-size: 1.5em;
     z-index: 3;
-    transition: backgroud-color 0.3s ease;
+    transition: background-color 0.3s ease;
   }
   
+  .nav-button:hover {
+    background-color: var(--gray-light);
+  }
   
   .nav-button.prev {
     left: -300px;
   }
   
-
   .nav-button.next {
     right: -300px;
   }
   
+  .indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
